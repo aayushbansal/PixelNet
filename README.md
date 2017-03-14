@@ -23,7 +23,7 @@ If you found these codes useful for your research, please consider citing -
 
 ## How to use these codes?
 
-Anyone can freely use our codes for what-so-ever purpose they want to use. Here we give a detailed instruction to setup them up and use for different applications. We will also provide the state-of-the-art models that we have trained. 
+Anyone can freely use our codes for what-so-ever purpose they want to use. Here we give a detailed instruction to set them up and use for different applications. We will also provide the state-of-the-art models that we have trained. 
 
 The codes can be downloaded using the following command:
 
