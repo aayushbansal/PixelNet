@@ -40,4 +40,18 @@ ls tools/caffe
 
 Our required layers are available within this submodule. To install Caffe, please follow the instructions on their [project page](http://caffe.berkeleyvision.org/).
 
+## Models
 
+We give a overview of the trained models in models/ directory.
+
+```make
+ls models
+```
+
+## Experiments
+
+We provide scripts to train/test models in experiments/ directory.
+
+```make
+ls experiments
+```
