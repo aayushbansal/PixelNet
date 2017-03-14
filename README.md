@@ -1,4 +1,4 @@
-#PixelNet: Representation _of_ the pixels, _by_ the pixels, and _for_ the pixels.
+# PixelNet: Representation _of_ the pixels, _by_ the pixels, and _for_ the pixels.
 
 We explore design principles for general pixel-level prediction problems, from low-level edge detection to mid-level surface normal estimation to high-level semantic segmentation. Convolutional predictors, such as the fully-convolutional network (FCN), have achieved remarkable success by exploiting the spatial redundancy of neighboring pixels through convolutional processing. Though computationally efficient, we point out that such approaches are not statistically efficient during learning precisely because spatial redundancy limits the information learned from neighboring pixels. We demonstrate that stratified sampling of pixels allows one to:
 
@@ -39,3 +39,5 @@ ls tools/caffe
 ```
 
 Our required layers are available within this submodule. To install Caffe, please follow the instructions on their [project page](http://caffe.berkeleyvision.org/).
+
+
