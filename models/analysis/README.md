@@ -8,7 +8,7 @@ We consider a single-scale 224x224 input image and used two different tasks (a).
 
 ## Notes: 
 
-1. The models used for Table-2 are contained in this folder. 
+1. The models used for Table-2 are contained in this folder. Refer to Section 4.2 (Linear vs. MLP) for this folder.
 
 2. Note that we fine-tune the pretrained ImageNet model for this analysis, and we use hypercolumn features from conv-{1_2, 2_2, 3_3, 4_3, 5_3, 7} layers.
 

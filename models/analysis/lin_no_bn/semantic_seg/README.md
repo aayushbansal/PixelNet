@@ -1,3 +1,3 @@
-# Linear model with normalization
+# Linear model without normalization
 
 We observed that model diverge and leads to degenerate output in this case. 
