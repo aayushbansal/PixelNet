@@ -4,7 +4,9 @@ We randomly initialize the parameters of a VGG-16 network from a Gaussian distri
 
 1. Semantic Segmentation: We trained models for [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/index.html) data for 21 classes (20 categories + background). We augmented our dataset using the annotations provided by [Hariharan et al](http://home.bharathh.info/pubs/codes/SBD/download.html). The model was evaluated on the test set of PASCAL VOC-2012 using the evaluation server.
 
-2. Surface Normal Estimation: We trained models for [surface normal estimation]((http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) using 795 unique trainval sequences (containing kinect data for each RGB frame). For details about dataset and how to download it, please refer to [MarrRevisited paper](https://github.com/aayushbansal/MarrRevisited).
+2. Surface Normal Estimation: We trained models for [surface normal estimation](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) using 795 unique trainval sequences (containing kinect data for each RGB frame). For details about dataset and how to download it, please refer to [MarrRevisited paper](https://github.com/aayushbansal/MarrRevisited).
+
+Please consider citing these work if you happen to use these dataset.
 
 ## Notes
 1. For semantic segmentation, we found that a linear model performs competitive to a MLP-based model while training a model from scratch. This is potentially due to small dataset size. 
