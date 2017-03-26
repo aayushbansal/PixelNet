@@ -58,4 +58,4 @@ ls experiments
 
 ## Python Codes
 
-[Xinlei](https://www.cs.cmu.edu/~xinleic) wrote a version of code in [Python](https://github.com/endernewton/PixelNet) as well. Check it out. We have not tested that extensively.
+The amazing [Xinlei Chen](https://www.cs.cmu.edu/~xinleic) wrote a version of code in [Python](https://github.com/endernewton/PixelNet) as well and wrote the GPU implementation of sampling layer. Check it out. We have not tested that extensively. It would be great if you could help us test that :)
