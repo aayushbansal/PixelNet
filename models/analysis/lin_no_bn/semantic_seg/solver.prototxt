@@ -1,0 +1,11 @@
+train_net: "train.prototxt"
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 0
+snapshot_prefix: "lin_no_bn"
+random_seed: 1989
