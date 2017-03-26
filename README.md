@@ -55,3 +55,7 @@ We provide scripts to train/test models in experiments/ directory.
 ```make
 ls experiments
 ```
+
+## Python Codes
+
+[Xinlei](https://www.cs.cmu.edu/~xinleic) wrote a version of code in [Python](https://github.com/endernewton/PixelNet) as well. Check it out. We have not tested that extensively.
