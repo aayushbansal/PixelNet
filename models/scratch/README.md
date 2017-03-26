@@ -14,3 +14,11 @@ Please consider citing these work if you happen to use these dataset.
 2. The network tends to overfit when using conv-7 along with other layers (conv1_2, conv2_2, conv3_3, conv4_3, conv5_3)  in the hypercolumn feature vector. One way to avoid overfitting is to use dropout. Later, we also found that just using other five layers (without conv-7) also give competitive performance as the one with conv-7. 
 
 3. For surface normal estimation, we trained the model  with the usual settings and did not observe the above mentioned things. We believe that such behaviour is observed due to small dataset size for semantic segmentation.
+
+4. For object detection, please see Fast-RCNN [Fast RCNN](https://github.com/rbgirshick/fast-rcnn). Our models can be downloaded from here: 
+
+```make
+
+wget http://learn.perception.cs.cmu.edu/GitHub/PixelNet/scratch/det_via_normals.tar.gz 
+
+```
