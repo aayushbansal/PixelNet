@@ -50,7 +50,7 @@ for i = 1:length(img_data)
 
 
         %
-        net.blobs('data0').reshape([crop_height+200, crop_width+200, 3, 1]);
+        net.blobs('data').reshape([crop_height+200, crop_width+200, 3, 1]);
 	net.blobs('pixels').reshape([3,crop_height*crop_width]);
         h = crop_height;
         w = crop_width;
