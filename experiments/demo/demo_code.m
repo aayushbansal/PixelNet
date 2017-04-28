@@ -27,14 +27,13 @@ image_mean = cat(3,  103.9390*ones(cnn_input_size),...
 		     123.6800*ones(cnn_input_size));
 
 % read the image set for NYU
-img_data = {'./experiments/demo/img_000001.jpg',...
-	     './experiments/demo/img_000002.jpg'};
+img_data = {'img_000001.jpg','img_000002.jpg'};
 
 % for each image in the img_set
 for i = 1:length(img_data)
 
 	display(['Image : ', img_data{i}]);
-	ith_Img = im2uint8(imread(img_data{i}));
+	ith_Img = im2uint8(imread(['./experiments/demo/', img_data{i}]));
 
 	%
         save_file_name = [conv_cache, strrep(img_data{i}, '.jpg', '')];
@@ -74,7 +73,7 @@ for i = 1:length(img_data)
 
 	% feed forward the values --
         net.forward_prefilled();
-        out = net.blobs('fc8_hcol').get_data();
+        out = net.blobs('fc8_new').get_data();
 
         % reshape the data --
         f2 = out';
