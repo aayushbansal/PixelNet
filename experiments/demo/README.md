@@ -29,5 +29,5 @@ tar -xvzf demo_edges.tar.gz;
 rm demo_edges.tar.gz
 ```
 ### Note 
-If you happen to evaluate on BSDS benchmarking dataset, you should do the standard non-maximum suppression (NMS) and edge thinning. We followed [HED](https://github.com/s9xie/hed), and used Piotr Dollar's [Structured Forest matlab toolbox](https://github.com/pdollar/edges). Thank you Saining! Thank you Piotr!
+You may want to do the standard non-maximum suppression (NMS) and edge thinning for the outputs. In the demo code, we haven't done any of these, but it is required for evaluation on benchmarks. We followed [HED](https://github.com/s9xie/hed), and used Piotr Dollar's [Structured Forest matlab toolbox](https://github.com/pdollar/edges). Thank you Saining! Thank you Piotr!
 
