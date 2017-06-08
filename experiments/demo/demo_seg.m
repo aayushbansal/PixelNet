@@ -1,4 +1,4 @@
-% demo code to use the surface normal mode --
+% demo code for semantic segmentation--
 % NOTE - this demo code is for a single scale only --
 % a minor modification is required for multi-scale
 clc; clear all;
