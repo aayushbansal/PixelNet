@@ -28,3 +28,6 @@ wget http://learn.perception.cs.cmu.edu/GitHub/PixelNet/demo_edges.tar.gz;
 tar -xvzf demo_edges.tar.gz;
 rm demo_edges.tar.gz
 ```
+### Note 
+If you happen to evaluate on BSDS benchmarking dataset, you should do the standard non-maximum suppression (NMS) and edge thinning. We followed [HED](https://github.com/s9xie/hed), and used Piotr Dollar's [Structured Forest matlab toolbox](https://github.com/pdollar/edges). Thank you Saining! Thank you Piotr!
+
